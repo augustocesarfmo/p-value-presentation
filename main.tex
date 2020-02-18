@@ -1,0 +1,128 @@
+\documentclass[xcolor={dvipsnames},aspectratio=169,xcolor=table]{beamer}
+
+%\mode<presentation> {
+\usepackage{amsfonts}
+\usepackage{amssymb,amscd,latexsym}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{framed}
+    \usepackage[utf8]{inputenc}
+    \usepackage[T1]{fontenc}
+    \usepackage[brazil]{babel}
+    \usepackage{xfrac}
+    \usepackage{scalefnt}
+    \usepackage{multicol}
+    \usepackage{graphicx}
+   % \bibliographystyle{plain}
+    \usepackage{pifont}
+    \usepackage{verbatim}
+    \usepackage{leading}
+    \usepackage{multirow}
+     \usepackage{animate}
+   \usepackage{dsfont}
+    \usepackage[table]{xcolor}
+    \usepackage{ragged2e} % Texto justificado
+    \usepackage[backend=biber,style=abnt]{biblatex}  
+\bibliography{biblio} %Definição do arquivo de bibliografia tipo BibTeX
+%Macros
+
+\setbeamertemplate{footline}[frame number]
+\renewcommand{\csc}{\textrm{\,cosec}\,} %Renomeando cossecante
+\renewcommand{\arcsin}{\textrm{\,arcsen}\,} %Renomeando arcoseno
+\renewcommand{\sin}{\textrm{\,sen}\,} %Renomeando seno
+\renewcommand{\tan}{\textrm{\,tg}\,} %Renomeando tangente
+\newcommand{\cotan}{\textrm{\,cotg}\,} %Renomeando cotangente
+\newcommand{\var}{\textrm{Var}\,} %Variância
+\newcommand{\vet}[3]{\overrightarrow{#1}=(#2,#3)} %Vetor 2d
+\newcommand{\vett}[4]{\overrightarrow{#1}=(#2,#3,#4)} %Vetor 3D
+\newcommand{\sva}[2]{#1_{1},#1_{2},\ldots,#1_{#2}} %Sequência de variáveis aleatórias com letra igual ao primeiro parâmetro e tamanho igual ao segundo
+\newcommand{\resp}[1]{\textcolor{red}{R: #1}} %Usado em listas para resposta
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Lista dos temas
+% Um exemplo dos temas possíveis nesse link
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{boxes}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{default}
+\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{default}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{monarca}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{spruce}
+%\usecolortheme{sidebartab}
+%\usecolortheme{structure}
+\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\usefonttheme{default}
+%\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+%\usefonttheme{structurebold}
+%\usefonttheme{structureitalicserif}
+%\usefonttheme{structuresmallcapsserif}
+
+
+\leading{16pt}
+
+
+\institute[]{Programa de Pós Graduação em Biometria e Estatística Aplicada}
+\title{Valores P}
+%\subtitle{Análise de Regressão}
+\author{Augusto César Ferreira de Miranda Oliveira}
+
+\date{29 de Novembro de 2019}
+
+\titlegraphic{      
+        \centering
+        \includegraphics[width=0.25\textwidth]{images/logos/logo_PPGBEA.png}
+        \hfill
+        \includegraphics[width=0.2\textwidth]{images/logos/logo_ufrpe.png}
+ }
+
+\begin{document}
+    \frame{\titlepage}
+    %----SLIDES----%
+    \input{development.tex}
+    %\include{capitulos/conclusao}
+    \begin{frame}[c]\transfade<1>[duration=0.3]
+    \frametitle{Bibliografia}
+    \printbibliography
+    \end{frame}
+    \frame{\titlepage}
+\end{document}
