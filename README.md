@@ -14,7 +14,7 @@ Na sua linha de comando execute:
 
 ```bash
 # Clonando este repositório
-$ git clone https://github.com/auguustocesar/p-value-presentation
+$ git clone https://github.com/augustocesarfmo/p-value-presentation
 ```
 
 Após clonar o repositório, importe para o TeXstudio ou Overleaf para possíveis edições.
