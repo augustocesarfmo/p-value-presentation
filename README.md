@@ -19,7 +19,7 @@ Na sua linha de comando execute:
 $ git clone https://github.com/augustocesarfmo/p-value-presentation
 ```
 
-Após clonar o repositório, importe para o TeXstudio ou Overleaf para possíveis edições.
+Após clonar o repositório, importe-o para o TeXstudio ou Overleaf para possíveis edições.
 
 ## 📝 Licença
 
