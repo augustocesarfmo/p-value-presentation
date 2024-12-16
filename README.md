@@ -10,7 +10,7 @@ A apresentação pode ser acessada na raiz do projeto no arquivo chamado `p-valu
 
 ## ℹ️ Executando
 
-Para clonar e executar este projeto, você precisará de [Git](https://git-scm.com) instalado no seu computador.
+Para clonar e executar este projeto, você precisará do [Git](https://git-scm.com) instalado no seu computador.
 
 Na sua linha de comando execute:
 
